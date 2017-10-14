@@ -11,7 +11,7 @@ float theTemp = 27.0;
 int state = 0;
 
 void setup(){
-  size(theSize*theScale,theSize*theScale);
+  surface.setSize(theSize*theScale,theSize*theScale);
 //  PFont font = createFont(PFont.list()[2],14);
 //  textFont(font);
   textSize(24);
